@@ -9,6 +9,7 @@ gem 'webrick'
 gem 'capybara'
 gem 'launchy'
 gem 'simplecov'
+gem 'pg'
 
 group :development, :test do
   gem 'rubocop', '1.20'
