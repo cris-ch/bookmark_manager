@@ -24,10 +24,16 @@ bundle
 
 ### -Set Up DB
 
-1. Connect to `psql` and create `bookmark_manager` DB
+1. Connect to `psql` and create `bookmark_manager` and `bookmark_manager_test` databases:
+
+```
+CREATE DATABASE bookmark_manager;
+CREATE DATABASE bookmark_manager_test;
+```
+
 2. Set Up appropriate tables:
 ```
-Connect to DB in `psql` and run SQL scripts in `db/migrations` in the given order.
+Connect to EACH DB in `psql` and run SQL scripts in `db/migrations` in the given order.
 ```
 
 ### -Run App

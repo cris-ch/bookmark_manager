@@ -19,9 +19,13 @@ GEM
       addressable (~> 2.7)
     matrix (0.4.2)
     mini_mime (1.1.2)
+    mini_portile2 (2.7.1)
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    nokogiri (1.13.0)
+      mini_portile2 (~> 2.7.0)
+      racc (~> 1.4)
     nokogiri (1.13.0-arm64-darwin)
       racc (~> 1.4)
     parallel (1.21.0)
@@ -89,6 +93,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  ruby
 
 DEPENDENCIES
   capybara
@@ -102,4 +107,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.4
+   2.3.5
